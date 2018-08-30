@@ -1,6 +1,5 @@
 version: 0.0
-os: linux
-hooks:
-  ApplicationStart:
-    - location: start.sh
-      runas: ec2-user
+phases:
+  build:
+    commands:
+      - start.sh
