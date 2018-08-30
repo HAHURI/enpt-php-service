@@ -7,7 +7,7 @@ services:
         depends_on:
             - php
         volumes:
-            - ./nginx/myc.conf:/etc/nginx/conf.d/default.conf:cached
+            - ./nginx/site.conf:/etc/nginx/conf.d/default.conf:cached
 
     php:
         image: php:7-fpm
@@ -22,8 +22,7 @@ services:
         environment:
             - MYSQL_ROOT_PASSWORD=password
         command: --innodb-use-native-aio=0
-        ports:
-            - 3306:3306
+
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
         environment:
