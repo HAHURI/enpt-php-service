@@ -23,15 +23,15 @@ $ docker-compose down
 
 サービスのWebページ  
 ```
-http://localhost:9999
+localhost:9999
 ```
 postgresのサーバー
 ```
-http://localhost:5432
+localhost:5432
 ```
 pgadminの管理画面
 ```
-http://localhost:5050
+localhost:5050
 ```
 
 
