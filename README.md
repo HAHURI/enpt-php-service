@@ -51,7 +51,7 @@ PASS：SuperSecret
 データベースの追加は以下の通り
 ```
 サーバー名：自由に決めて
-HOSTNAME：enpt-service_pgsql_1
+HOSTNAME：enpt-php-service_pgsql_1
 DBNAME：postgres
 USERNAME：postgres
 PASSWORD：example
