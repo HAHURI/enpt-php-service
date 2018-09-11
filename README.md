@@ -132,7 +132,7 @@ heroku open
 $ heroku config
 DATABASE_URL: postgres://[ユーザ名]:[パスワード]@[ホスト名]:[ポート]/[データベース名]
 ```
-- 言語設定は英語にしておく（日本語の方が不安定？）
+- 言語設定は英語にしておく（日本語の方が不安定っぽい？）
 - heroku configのpostgresの値をDB情報に記入
 - 「DB Restriction」に[データベース名]を設定して、自分のDBだけ表示されるようにする  
 
