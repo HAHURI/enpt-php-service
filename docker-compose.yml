@@ -3,7 +3,7 @@ services:
     nginx:
         image: nginx
         ports:
-            - "9999:80"
+            - "９０００:80"
         depends_on:
             - php
         volumes:
