@@ -1,7 +1,7 @@
 <?php echo '<h2>DockerベースのまっさらなPHPのてんぷれーと</h2>'; ?>
 <?php
 echo '<p>Postgresへの接続をテストするよ！</p>';
-$dsn = 'pgsql:dbname=postgres;host=enpt-service_pgsql_1;port=5432';
+$dsn = 'pgsql:dbname=postgres;host=pgsql;port=5432';
 $user = 'postgres';
 $pass = 'example';
 
